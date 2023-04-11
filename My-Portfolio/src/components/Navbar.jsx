@@ -9,6 +9,7 @@ function Navbar() {
       <div>
         <NavLink>Inicio</NavLink>
         <NavLink>Sobre mi</NavLink>
+        <NavLink>Skills</NavLink>
         <NavLink>Proyectos</NavLink>
         <NavLink>Contacto</NavLink>
       </div>
