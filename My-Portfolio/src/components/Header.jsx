@@ -18,7 +18,11 @@ function Header() {
         <button>Contacto</button>
       </div>
       <div>
-        <img src="" alt="imagen perfil" />
+        <img
+          src="https://res.cloudinary.com/dacltsvln/image/upload/v1680017651/re-Usa/ohbjquwjm4ptqldykd5z.jpg"
+          alt="imagen perfil"
+          width={"300px"}
+        />
       </div>
     </header>
   );
