@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -31,6 +31,15 @@ function Header() {
           alt="imagen perfil"
           width={"300px"}
         />
+      </div>
+      <div>
+        <h4>Introducción</h4>
+        <h2>Full Stack Web Developer</h2>
+        <p>
+          JavaScript | ReactJs | Vite | NodeJs | MongoDB | Axios | CSS |
+          Tailwind CSS | Bootstrap | HTML5 | Git
+        </p>
+        <Link>Más sobre mí ↓</Link>
       </div>
     </header>
   );
