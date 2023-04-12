@@ -11,8 +11,16 @@ function Header() {
           Alberto Pérez<span>.</span>
         </h2>
         <hr />
-        <Link to="https://www.linkedin.com/in/apleon89/">Linkedin</Link>
-        <Link to="https://1drv.ms/b/s!Asgw2DpLnj0MlLNMs0P3-xI-N64gKA?e=wWSW2a">
+        <Link to="https://www.linkedin.com/in/apleon89/" target="_blank">
+          Linkedin
+        </Link>
+        <Link to="https://github.com/Apleon89" target="_blank">
+          Github
+        </Link>
+        <Link
+          to="https://1drv.ms/b/s!Asgw2DpLnj0MlLNMs0P3-xI-N64gKA?e=wWSW2a"
+          target="_blank"
+        >
           CV
         </Link>
         <button>Contacto</button>

@@ -14,14 +14,14 @@ function Projects() {
         <h3>Re-Usa</h3>
         <p>Aplicación MERN Stack de intercambio de productos de segundamano.</p>
         <p>MongoDB | ExpressJS | ReactJS | NodeJS | CSS3</p>
-        <Link to="https://re-usa.netlify.app/">
+        <Link to="https://re-usa.netlify.app/" target="_blank">
           <button>Visitar la web</button>
         </Link>
         <div>
-          <Link to="https://github.com/Apleon89/re-usa-client">
+          <Link to="https://github.com/Apleon89/re-usa-client" target="_blank">
             <button>Frontend Github</button>
           </Link>
-          <Link to="https://github.com/Apleon89/re-usa-server">
+          <Link to="https://github.com/Apleon89/re-usa-server" target="_blank">
             <button>Backend Github</button>
           </Link>
         </div>
@@ -35,11 +35,11 @@ function Projects() {
         <h3>Talent Match</h3>
         <p>Aplicación Full Stack para conectar empresas y desarrolladores.</p>
         <p>MongoDB | ExpressJS | Handlebars | TailwindCSS</p>
-        <Link to="https://talentmatch.cyclic.app/">
+        <Link to="https://talentmatch.cyclic.app/" target="_blank">
           <button>Visitar la web</button>
         </Link>
         <div>
-          <Link to="https://github.com/jdluis/TalentMatch">
+          <Link to="https://github.com/jdluis/TalentMatch" target="_blank">
             <button>Github</button>
           </Link>
         </div>
@@ -53,11 +53,11 @@ function Projects() {
         <h3>Retro Race Car</h3>
         <p>Juego de carreras retro realizado en Canvas.</p>
         <p>HTML5 | CSS3 | Javascript | Canvas</p>
-        <Link to="https://apleon89.github.io/RetroRaceCar/">
+        <Link to="https://apleon89.github.io/RetroRaceCar/" target="_blank">
           <button>Visitar la web</button>
         </Link>
         <div>
-          <Link to="https://github.com/Apleon89/RetroRaceCar">
+          <Link to="https://github.com/Apleon89/RetroRaceCar" target="_blank">
             <button>Github</button>
           </Link>
         </div>
