@@ -4,7 +4,7 @@ import FrontendSkills from "./FrontendSkills";
 
 function Skills() {
   return (
-    <section>
+    <section id="skills">
       <h4>Skills</h4>
       <h2>Tecnologías que conozco</h2>
       <FrontendSkills />

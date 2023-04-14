@@ -2,7 +2,6 @@ function TopScrollBtn() {
   const handleButtonClick = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
     });
   };
 

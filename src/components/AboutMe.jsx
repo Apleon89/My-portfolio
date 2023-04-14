@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <section>
+    <section id="about-me">
       <h4>Sobre mi</h4>
       <h2>Quien soy</h2>
       <p>

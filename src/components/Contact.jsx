@@ -42,7 +42,7 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section id="contacto">
       <h4>Contacto</h4>
       <h2>Formas de contactar conmigo</h2>
       <div>

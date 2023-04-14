@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -7,11 +7,11 @@ function Navbar() {
         AP<span>.</span>
       </h2>
       <div>
-        <NavLink>Inicio</NavLink>
-        <NavLink>Sobre mi</NavLink>
-        <NavLink>Skills</NavLink>
-        <NavLink>Proyectos</NavLink>
-        <NavLink>Contacto</NavLink>
+        <a href="#header">Inicio</a>
+        <a href='#about-me'>Sobre mi</a>
+        <a href="#skills">Skills</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
       </div>
     </nav>
   );
