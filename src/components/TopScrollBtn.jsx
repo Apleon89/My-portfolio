@@ -5,7 +5,7 @@ function TopScrollBtn() {
     });
   };
 
-  return <button onClick={handleButtonClick}>Volver al inicio</button>;
+  return <button onClick={handleButtonClick}> ^ </button>;
 }
 
 export default TopScrollBtn;

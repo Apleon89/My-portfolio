@@ -11,7 +11,9 @@ function AboutMe() {
         deseo de mejorar constantemente para ofrecer el máximo valor en
         cualquier proyecto al que me dedique.
       </p>
-      <button>Hablemos!</button>
+      <a href="#contacto">
+        <button>Hablemos!</button>
+      </a>
     </section>
   );
 }

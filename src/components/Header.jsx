@@ -23,7 +23,9 @@ function Header() {
         >
           CV
         </Link>
-        <button>Contacto</button>
+        <a href="#contacto">
+          <button>Contacto</button>
+        </a>
       </div>
       <div>
         <img
@@ -39,7 +41,7 @@ function Header() {
           JavaScript | ReactJs | Vite | NodeJs | MongoDB | Axios | CSS |
           Tailwind CSS | Bootstrap | HTML5 | Git
         </p>
-        <Link>Más sobre mí ↓</Link>
+        <a href="#about-me">Más sobre mí ↓</a>
       </div>
     </header>
   );
