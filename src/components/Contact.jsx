@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { SiTelegram } from "react-icons/si";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
+import "./Contact.css";
 
 function Contact() {
   const form = useRef();
@@ -45,49 +46,51 @@ function Contact() {
     <section id="contacto">
       <h4>Contacto</h4>
       <h2>Formas de contactar conmigo</h2>
-      <div>
-        <MdEmail />
-        <p>apleon89@gmail.com</p>
-        <Link to={"mailto:apleon89@gmail.com"} target="_blank">
-          <button>Envíame un correo</button>
-        </Link>
+      <div className="contact-container">
+        <div className="mail-Telegram-container">
+          <h5><MdEmail /></h5>
+          <p>apleon89@gmail.com</p>
+          <Link to={"mailto:apleon89@gmail.com"} target="_blank">
+            <button className="btn">Envíame un correo</button>
+          </Link>
+        </div>
+        <div className="mail-Telegram-container">
+          <h5><SiTelegram /></h5>
+          <p>
+            Telegram: <span>@Apleon89</span>
+          </p>
+          <Link to={"https://t.me/Apleon89"} target="_blank">
+            <button className="btn">Envíame un mensaje</button>
+          </Link>
+        </div>
+        <hr />
+        <form ref={form} onSubmit={sendMessage} id="form-container">
+          <input
+            type="text"
+            value={nombre}
+            name="user_name"
+            placeholder="Nombre"
+            onChange={(e) => setNombre(e.target.value)}
+          />
+          <input
+            type="email"
+            name="user_email"
+            value={email}
+            placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <textarea
+            cols="30"
+            rows="10"
+            name="user_message"
+            value={mensaje}
+            placeholder="Mensaje"
+            onChange={(e) => setMensaje(e.target.value)}
+          ></textarea>
+          {formMessage && <h3>{formMessage}</h3>}
+          <button className="btn">Enviar</button>
+        </form>
       </div>
-      <div>
-        <SiTelegram />
-        <p>
-          Telegram: <span>@Apleon89</span>
-        </p>
-        <Link to={"https://t.me/Apleon89"} target="_blank">
-          <button>Envíame un mensaje</button>
-        </Link>
-      </div>
-      <hr />
-      <form ref={form} onSubmit={sendMessage}>
-        <input
-          type="text"
-          value={nombre}
-          name="user_name"
-          placeholder="Tu Nombre"
-          onChange={(e) => setNombre(e.target.value)}
-        />
-        <input
-          type="email"
-          name="user_email"
-          value={email}
-          placeholder="Email"
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <textarea
-          cols="30"
-          rows="10"
-          name="user_message"
-          value={mensaje}
-          placeholder="Mensaje"
-          onChange={(e) => setMensaje(e.target.value)}
-        ></textarea>
-        {formMessage && <h3>{formMessage}</h3>}
-        <button>Enviar</button>
-      </form>
     </section>
   );
 }
