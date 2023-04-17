@@ -52,9 +52,22 @@ h2 span {
 a {
   text-decoration: none;
   color: var(--font-color-white);
+  padding: 0  6px;
 }
 
 a:hover {
   color: var(--orange-color);
 }
 
+.btn {
+  background-color: var(--color-grey-dark);
+  color: var(--orange-color);
+  border: 2px solid var(--orange-color);
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: var(--orange-color);
+  color: black;
+}
