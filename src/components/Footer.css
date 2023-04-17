@@ -1,0 +1,25 @@
+#footer {
+    padding: 1rem;
+}
+
+#footer h2 {
+    padding-bottom: 1rem;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-links-container a {
+    font-size: 1.5rem;
+}
+
+.topScrollBtn {
+    font-size: 1rem;
+    padding-top: 0.8rem;
+}
+
+#invisible-div {
+    width: 43px;
+}

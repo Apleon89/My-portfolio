@@ -5,7 +5,7 @@ function TopScrollBtn() {
     });
   };
 
-  return <button onClick={handleButtonClick}> ^ </button>;
+  return <button className="btn topScrollBtn" onClick={handleButtonClick}> ^ </button>;
 }
 
 export default TopScrollBtn;
