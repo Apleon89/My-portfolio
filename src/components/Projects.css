@@ -1,0 +1,32 @@
+#proyectos {
+    padding: 4rem 2rem;
+}
+
+#proyectos h2 {
+    padding: 0.6rem 0 1.5rem 0;
+}
+
+#allProjects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.project-container {
+    background-color: var(--color-grey-dark);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project-container img {
+    width: 15rem;
+    margin: 0 auto;
+    border: 1px solid var(--orange-color);
+}
+
+.project-container h3 {
+    font-size: 1.5rem;
+    color: var(--orange-color);
+}
