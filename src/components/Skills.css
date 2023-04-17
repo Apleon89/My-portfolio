@@ -1,0 +1,43 @@
+#skills {
+    padding: 3rem 1rem;
+    background-color: var(--color-grey-dark);
+}
+
+#skills h2 {
+    padding: 0.6rem;
+}
+
+/* Frontend Skills & Backend Skills */
+
+#front-skills-container, 
+#back-skills-container {
+    background-color: var(--color-grey-ligth);
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+#front-skills-container h5, 
+#back-skills-container h5 {
+    padding-bottom: 2rem;
+}
+
+#frontend-logos-container,
+#backend-logos-container {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+#frontend-logos-container a,
+#backend-logos-container a {
+    font-size: 4rem;
+    padding: 0;
+}
+
+#frontend-logos-container a:hover,
+#backend-logos-container a:hover {
+    font-size: 4rem;
+    color: var(--orange-color);
+}

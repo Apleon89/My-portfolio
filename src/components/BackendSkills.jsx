@@ -1,22 +1,25 @@
 import { IoLogoNodejs } from "react-icons/io";
 import { SiExpress, SiMongodb, SiPostman } from 'react-icons/si'
+import { Link } from "react-router-dom";
 
 function BackendSkills() {
   return (
-    <div>
+    <div id="back-skills-container">
       <h5>Backend</h5>
-      <h1>
+      <div id="backend-logos-container">
+      <Link to="https://nodejs.org/en" target="_blank">
         <IoLogoNodejs />
-      </h1>
-      <h1> 
+      </Link>
+      <Link to="https://expressjs.com/" target="_blank"> 
        <SiExpress />
-      </h1>
-      <h1>
+      </Link>
+      <Link to="https://www.mongodb.com/" target="_blank">
         <SiMongodb />
-      </h1>
-      <h1>
+      </Link>
+      <Link to="https://www.postman.com/" target="_blank">
         <SiPostman />
-      </h1>
+      </Link>
+      </div>
     </div>
   );
 }

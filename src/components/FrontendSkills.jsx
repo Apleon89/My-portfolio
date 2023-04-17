@@ -6,35 +6,39 @@ import {
   SiVite,
   SiHandlebarsdotjs,
 } from "react-icons/si";
+import "./Skills.css";
+import { Link } from "react-router-dom";
 
 function FrontendSkills() {
   return (
-    <div>
+    <div id="front-skills-container">
       <h5>Frontend</h5>
-      <h1>
-        <IoLogoHtml5 />
-      </h1>
-      <h1>
-        <IoLogoCss3 />
-      </h1>
-      <h1>
-        <IoLogoJavascript />
-      </h1>
-      <h1>
-        <BsFillBootstrapFill />
-      </h1>
-      <h1>
-        <SiTailwindcss />
-      </h1>
-      <h1>
-        <SiReact />
-      </h1>
-      <h1>
-        <SiVite />
-      </h1>
-      <h1>
-        <SiHandlebarsdotjs />
-      </h1>
+      <div id="frontend-logos-container">
+        <Link to="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+          <IoLogoHtml5 />
+        </Link>
+        <Link to="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+          <IoLogoCss3 />
+        </Link>
+        <Link to="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+          <IoLogoJavascript />
+        </Link>
+        <Link to="https://getbootstrap.com/" target="_blank">
+          <BsFillBootstrapFill />
+        </Link>
+        <Link to="https://tailwindcss.com/" target="_blank">
+          <SiTailwindcss />
+        </Link>
+        <Link to="https://react.dev/" target="_blank">
+          <SiReact />
+        </Link>
+        <Link to="https://vitejs.dev/" target="_blank">
+          <SiVite />
+        </Link>
+        <Link to="https://handlebarsjs.com/" target="_blank">
+          <SiHandlebarsdotjs />
+        </Link>
+      </div>
     </div>
   );
 }
