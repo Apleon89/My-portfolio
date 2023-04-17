@@ -1,7 +1,9 @@
+import "./AboutMe.css";
+
 function AboutMe() {
   return (
     <section id="about-me">
-      <h4>Sobre mi</h4>
+      <h4>SOBRE MI</h4>
       <h2>Quien soy</h2>
       <p>
         Soy un desarrollador web Full Stack Junior con experiencia en el campo
@@ -12,7 +14,7 @@ function AboutMe() {
         cualquier proyecto al que me dedique.
       </p>
       <a href="#contacto">
-        <button>Hablemos!</button>
+        <button className="btn" id="btn-contacto-aboutMe">Hablemos!</button>
       </a>
     </section>
   );
