@@ -22,7 +22,7 @@ function Header() {
               Github
             </Link>
           </div>
-          <Link
+          <Link id="cv-link"
             to="https://1drv.ms/b/s!Asgw2DpLnj0MlLNMs0P3-xI-N64gKA?e=wWSW2a"
             target="_blank"
           >

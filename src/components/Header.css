@@ -33,6 +33,10 @@
     margin: 0 auto;
 }
 
+#cv-link {
+    margin-left: 0.8rem;
+}
+
 #header-img {
     width: 50%;
     margin: auto;
