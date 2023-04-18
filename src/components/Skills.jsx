@@ -7,8 +7,10 @@ function Skills() {
     <section id="skills">
       <h4>SKILLS</h4>
       <h2>Tecnologías que conozco</h2>
-      <FrontendSkills />
-      <BackendSkills />
+      <div id="skills-container">
+        <FrontendSkills />
+        <BackendSkills />
+      </div>
     </section>
   );
 }

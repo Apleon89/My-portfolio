@@ -9,14 +9,14 @@
 
 /* Frontend Skills & Backend Skills */
 
-#front-skills-container, 
+#front-skills-container,
 #back-skills-container {
     background-color: var(--color-grey-ligth);
     padding: 1rem;
     margin-bottom: 3rem;
 }
 
-#front-skills-container h5, 
+#front-skills-container h5,
 #back-skills-container h5 {
     padding-bottom: 2rem;
 }
@@ -40,4 +40,36 @@
 #backend-logos-container a:hover {
     font-size: 4rem;
     color: var(--orange-color);
+}
+
+@media (min-width: 768px) {
+
+    #skills h2 {
+        font-size: 2rem;
+    }
+
+    #front-skills-container,
+    #back-skills-container {
+        max-width: 50%;
+        margin: 2rem auto;
+
+    }
+}
+
+@media (min-width: 992px) {
+    #skills-container {
+        display: flex;
+    }
+
+    #front-skills-container,
+    #back-skills-container {
+        width: 45%;
+        margin: 2rem auto;
+
+    }
+
+    #front-skills-container h5,
+    #back-skills-container h5 {
+        font-size: 1.2rem;
+    }
 }
