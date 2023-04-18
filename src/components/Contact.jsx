@@ -88,7 +88,7 @@ function Contact() {
             onChange={(e) => setMensaje(e.target.value)}
           ></textarea>
           {formMessage && <h3>{formMessage}</h3>}
-          <button className="btn">Enviar</button>
+          <button className="btn btn2">Enviar</button>
         </form>
       </div>
     </section>

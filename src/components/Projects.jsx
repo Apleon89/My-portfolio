@@ -19,7 +19,7 @@ function Projects() {
           </p>
           <p>MongoDB | ExpressJS | ReactJS | NodeJS | CSS3</p>
           <Link to="https://re-usa.netlify.app/" target="_blank">
-            <button className="btn">Visitar la web</button>
+            <button className="btn btn2">Visita la web</button>
           </Link>
           <div>
             <Link
@@ -46,7 +46,7 @@ function Projects() {
           <p>Aplicación Full Stack para conectar empresas y desarrolladores.</p>
           <p>MongoDB | ExpressJS | Handlebars | TailwindCSS</p>
           <Link to="https://talentmatch.cyclic.app/" target="_blank">
-            <button className="btn">Visitar la web</button>
+            <button className="btn btn2">Visita la web</button>
           </Link>
           <div>
             <Link to="https://github.com/jdluis/TalentMatch" target="_blank">
@@ -64,7 +64,7 @@ function Projects() {
           <p>Juego de carreras retro realizado en Canvas.</p>
           <p>HTML5 | CSS3 | Javascript | Canvas</p>
           <Link to="https://apleon89.github.io/RetroRaceCar/" target="_blank">
-            <button className="btn">Visitar la web</button>
+            <button className="btn btn2">Visita la web</button>
           </Link>
           <div>
             <Link to="https://github.com/Apleon89/RetroRaceCar" target="_blank">

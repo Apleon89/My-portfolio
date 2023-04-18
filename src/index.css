@@ -77,3 +77,13 @@ a:hover {
   background-color: var(--orange-color);
   color: black;
 }
+
+.btn2 {
+  background-color: var(--orange-color);
+  color: var(--color-grey-dark);
+}
+
+.btn2:hover {
+  background-color: var(--color-grey-dark);
+  color: var(--orange-color);
+}
