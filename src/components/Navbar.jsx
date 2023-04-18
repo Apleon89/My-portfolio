@@ -15,6 +15,13 @@ function Navbar() {
         <button onClick={() => setShowMenu(!showMenu)} id="btn-nav">
           <UseAnimations animation={menu} size={35} />
         </button>
+        <div id="navbar-web-menu">
+          <a href="#header">Inicio</a>
+          <a href="#about-me">Sobre mi</a>
+          <a href="#skills">Skills</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
       </div>
       <div className={`animacion-colapso ${showMenu ? "" : "colapsado"}`}>
         {showMenu && (

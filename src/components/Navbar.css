@@ -22,13 +22,41 @@
     background-color: var(--color-grey-ligth);
     padding: 0.5rem;
     gap: 1rem;
+    width: 100%;
+}
+
+#navbar-web-menu {
+    display: none;
 }
 
 .animacion-colapso {
     max-height: 1000px;
     transition: max-height 0.5s ease-out;
+    display: flex;
+    justify-content: end;
   }
   
   .animacion-colapso.colapsado {
     max-height: 0;
+  }
+
+  @media (min-width: 768px) {
+    #navbar-mobile-menu {
+        max-width: 50vw;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #navbar {
+        width: auto;
+    }
+
+    #btn-nav {
+        display: none;
+    }
+
+    #navbar-web-menu {
+        display: block;
+    }
+
   }
