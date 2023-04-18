@@ -30,3 +30,20 @@
     font-size: 1.5rem;
     color: var(--orange-color);
 }
+
+@media (min-width: 768px) {
+    .project-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #proyectos h2 {
+        font-size: 2rem;
+    }
+
+    #allProjects-container {
+        flex-direction: row;
+    }
+}
