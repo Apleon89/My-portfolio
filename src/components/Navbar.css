@@ -23,3 +23,12 @@
     padding: 0.5rem;
     gap: 1rem;
 }
+
+.animacion-colapso {
+    max-height: 1000px;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .animacion-colapso.colapsado {
+    max-height: 0;
+  }
