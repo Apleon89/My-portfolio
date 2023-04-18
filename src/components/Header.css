@@ -63,7 +63,7 @@
     #header-name-links h2 {
         font-size: 2rem;
         padding-bottom: 2rem;
-    } 
+    }
 
     #header-img img {
         max-width: 20rem;
@@ -71,11 +71,11 @@
 
     #intro-header {
         display: block;
-        width: 33.3vw; 
+        width: 33.3vw;
     }
 
     #intro-header h4 {
-        font-size: 1rem; 
+        font-size: 1rem;
         padding-bottom: 1rem;
     }
 
@@ -95,31 +95,32 @@
         color: var(--orange-color);
     }
 
-    @media (min-width: 992px) {
-        #header {
-            margin-top: 2rem;
-        }
+}
 
-        #header-container {
-            margin-top: 3rem;
-        }
+@media (min-width: 992px) {
+    #header {
+        margin-top: 2rem;
+    }
 
-        #header-name-links h2 {
-            font-size: 3.5rem;
-        } 
+    #header-container {
+        margin-top: 3rem;
+    }
 
-        #header-img img {
-            max-width: 24rem;
-        }
+    #header-name-links h2 {
+        font-size: 3.5rem;
+    }
 
-        #intro-header h4 {
-            font-size: 1.5rem; 
-            padding-bottom: 1.5rem;
-        }
-    
-        #intro-header h2 {
-            font-size: 2rem;
-            padding-bottom: 2rem;
-        }
+    #header-img img {
+        max-width: 24rem;
+    }
+
+    #intro-header h4 {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #intro-header h2 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
     }
 }
