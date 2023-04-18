@@ -13,3 +13,16 @@
 #btn-contacto-aboutMe {
     margin: 2.5rem;
 }
+
+@media (min-width: 992px) {
+    #about-me h2 {
+        font-size: 2rem;
+    }
+
+    #about-me p {
+        font-size: 1.2rem;
+        max-width: 55rem;
+        margin: 0 auto;
+        line-height: 2rem;
+    }    
+}
