@@ -47,21 +47,27 @@ function Contact() {
       <h4>Contacto</h4>
       <h2>Formas de contactar conmigo</h2>
       <div className="contact-container">
-        <div className="mail-Telegram-container">
-          <h5><MdEmail /></h5>
-          <p>apleon89@gmail.com</p>
-          <Link to={"mailto:apleon89@gmail.com"} target="_blank">
-            <button className="btn">Envíame un correo</button>
-          </Link>
-        </div>
-        <div className="mail-Telegram-container">
-          <h5><SiTelegram /></h5>
-          <p>
-            Telegram: <span>@Apleon89</span>
-          </p>
-          <Link to={"https://t.me/Apleon89"} target="_blank">
-            <button className="btn">Envíame un mensaje</button>
-          </Link>
+        <div id="links-container">
+          <div className="mail-Telegram-container">
+            <h5>
+              <MdEmail />
+            </h5>
+            <p>apleon89@gmail.com</p>
+            <Link to={"mailto:apleon89@gmail.com"} target="_blank">
+              <button className="btn">Envíame un correo</button>
+            </Link>
+          </div>
+          <div className="mail-Telegram-container">
+            <h5>
+              <SiTelegram />
+            </h5>
+            <p>
+              Telegram: <span>@Apleon89</span>
+            </p>
+            <Link to={"https://t.me/Apleon89"} target="_blank">
+              <button className="btn">Envíame un mensaje</button>
+            </Link>
+          </div>
         </div>
         <hr />
         <form ref={form} onSubmit={sendMessage} id="form-container">
