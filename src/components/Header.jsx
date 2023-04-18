@@ -45,8 +45,8 @@ function Header() {
           <h4>Introducción</h4>
           <h2>Full Stack Web Developer</h2>
           <p>
-            JavaScript | ReactJs | Vite | NodeJs | MongoDB | Axios | CSS |
-            Tailwind CSS | Bootstrap | HTML5 | Git
+            JavaScript | ReactJs <br />Vite | NodeJs | MongoDB <br /> Axios | CSS |
+            TailwindCSS Bootstrap | HTML5 <br /> Git | Github
           </p>
           <a href="#about-me">Más sobre mí ↓</a>
         </div>
