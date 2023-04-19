@@ -19,7 +19,7 @@ function Footer() {
             <SiGithub />
           </Link>
           <Link
-            to="https://1drv.ms/b/s!Asgw2DpLnj0MlLNMs0P3-xI-N64gKA?e=wWSW2a"
+            to="https://1drv.ms/b/s!Asgw2DpLnj0MlZ9VqnHvp1f9Rh9mFQ?e=dwJvyF"
             target="_blank"
           >
             CV
