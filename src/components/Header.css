@@ -57,7 +57,7 @@
 @media (min-width: 768px) {
 
     #header-name-links {
-        width: 33.3vw;
+        width: 33.3%;
     }
 
     #header-name-links h2 {
@@ -71,7 +71,7 @@
 
     #intro-header {
         display: block;
-        width: 33.3vw;
+        width: 33.3%;
     }
 
     #intro-header h4 {
