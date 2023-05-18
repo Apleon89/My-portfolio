@@ -5,7 +5,7 @@ function Projects() {
   return (
     <section id="proyectos">
       <h4>Proyectos</h4>
-      <h2>Últimos trabajos</h2>
+      <h2>Últimos proyectos</h2>
       <div id="allProjects-container">
         <div className="project-container">
           <img
@@ -19,20 +19,20 @@ function Projects() {
           </p>
           <p>MongoDB | ExpressJS | ReactJS | NodeJS | CSS3</p>
           <Link to="https://re-usa.netlify.app/" target="_blank">
-            <button className="btn btn2">Visita la web</button>
+            <button className="btn btn2 btn-projects">Visita la web</button>
           </Link>
           <div>
             <Link
               to="https://github.com/Apleon89/re-usa-client"
               target="_blank"
             >
-              <button className="btn">Frontend Github</button>
+              <button className="btn btn-projects">Frontend Github</button>
             </Link>
             <Link
               to="https://github.com/Apleon89/re-usa-server"
               target="_blank"
             >
-              <button className="btn">Backend Github</button>
+              <button className="btn btn-projects">Backend Github</button>
             </Link>
           </div>
         </div>
@@ -46,17 +46,17 @@ function Projects() {
           <p>Aplicación Full Stack para conectar empresas y desarrolladores.</p>
           <p>MongoDB | ExpressJS | Handlebars | TailwindCSS</p>
           <Link to="https://talentmatch.cyclic.app/" target="_blank">
-            <button className="btn btn2">Visita la web</button>
+            <button className="btn btn2 btn-projects">Visita la web</button>
           </Link>
           <div>
             <Link to="https://github.com/jdluis/TalentMatch" target="_blank">
-              <button className="btn">Github</button>
+              <button className="btn btn-projects">Github</button>
             </Link>
           </div>
         </div>
         <div className="project-container">
           <img
-            src="https://res.cloudinary.com/dacltsvln/image/upload/v1681284685/Captura_de_pantalla_2023-04-12_a_las_8.31.05_leqjiz.png"
+            src="https://res.cloudinary.com/dacltsvln/image/upload/v1684399350/Captura_de_pantalla_2023-04-12_a_las_8.31.05_leqjiz_rnrbh7.png"
             alt="logo app"
             width={"200px"}
           />
@@ -64,11 +64,11 @@ function Projects() {
           <p>Juego de carreras retro realizado en Canvas.</p>
           <p>HTML5 | CSS3 | Javascript | Canvas</p>
           <Link to="https://apleon89.github.io/RetroRaceCar/" target="_blank">
-            <button className="btn btn2">Visita la web</button>
+            <button className="btn btn2 btn-projects">Visita la web</button>
           </Link>
           <div>
             <Link to="https://github.com/Apleon89/RetroRaceCar" target="_blank">
-              <button className="btn">Github</button>
+              <button className="btn btn-projects">Github</button>
             </Link>
           </div>
         </div>

@@ -46,4 +46,13 @@
     #allProjects-container {
         flex-direction: row;
     }
+
+    .project-container p {
+        height: 2rem;
+    }
+
+    .btn-projects {
+        width: 10rem;
+        margin-bottom: 0.5rem;
+    }
 }
